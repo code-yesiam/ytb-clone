@@ -77,7 +77,17 @@ body {
 }
 
 .channel-link p {
+    font-size: small;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.channel-link a {
+    text-decoration: none;
+    color: white;
     display: inline;
+    vertical-align: sub;
 }
 
 .video-interactions {
@@ -112,19 +122,37 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    border: 15px solid red;
+    padding-left: 30px;
+    padding-top: 10px;
+    gap: 15px;
 }
 
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .other-videos img {
     display: inline;
     width: 40%;
+    border-radius: 12px;
+    cursor: pointer;
 }
 
 .videos li{
     list-style: none;
 }
 
+.video-title {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
 
+.video-channel {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
 
 /* END OF RECOMMENDATION VIDEOS CONFIGURATION */
